@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yijinshin/Documents/GitHub/instargram_clone/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/yijinshin/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/beca66d494f2d1020011df08df474272/res/values/values.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -78,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yijinshin/Documents/GitHub/instargram_clone/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

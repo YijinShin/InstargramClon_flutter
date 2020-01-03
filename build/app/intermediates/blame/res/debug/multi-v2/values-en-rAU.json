@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yijinshin/Documents/GitHub/instargram_clone/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/yijinshin/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/beca66d494f2d1020011df08df474272/res/values-en-rAU/values-en-rAU.xml",

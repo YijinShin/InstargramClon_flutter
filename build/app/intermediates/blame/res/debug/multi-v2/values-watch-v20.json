@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yijinshin/Documents/GitHub/instargram_clone/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/Users/yijinshin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4c11bbb5a64cae515d842c051f012447/res/values-watch-v20/values.xml",

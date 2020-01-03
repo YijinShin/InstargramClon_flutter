@@ -1,0 +1,10 @@
+# This is a generated file; do not edit or check into version control.
+cloud_firestore=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.0+1/
+firebase_auth=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.3/
+firebase_auth_web=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.1+1/
+firebase_core=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.3+1/
+firebase_core_web=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+1/
+firebase_storage=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.1/
+google_sign_in=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.1.1/
+google_sign_in_web=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.8.2+1/
+image_picker=/Users/yijinshin/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.2+3/

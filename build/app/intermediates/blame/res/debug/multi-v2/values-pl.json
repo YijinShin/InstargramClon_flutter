@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yijinshin/Documents/GitHub/instargram_clone/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/yijinshin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/d8341b9e6e2542bd439e12c6cafa90f6/res/values-pl/values.xml",

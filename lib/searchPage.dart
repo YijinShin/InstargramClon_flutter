@@ -33,26 +33,28 @@ class _searchPageState extends State<searchPage> {
   }
 
  Widget _buildBody() {
-    return StreamBuilder(
-      stream: Firestore.instance.collection('post').snapshots(),
-      builder: (BuildContext context, AsyncSnapshot snapshot){
-        if(! snapshot.hasData){
-          return Center(child: CircularProgressIndicator());
+    return Scaffold(
+      body: StreamBuilder(
+        stream: Firestore.instance.collection('post').snapshots(),
+        builder: (BuildContext context, AsyncSnapshot snapshot){
+          if(! snapshot.hasData){
+            return Center(child: CircularProgressIndicator());
+          }
+          var items = snapshot.data?.documents ?? []; // ?? : item 이 null이면 [] 빈 리스트가 되도록 (null이 아니게 처리하는 거임)
+          return GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3, //한줄에 게시물 3개
+              childAspectRatio: 1.0, //게시물 비율 1:1 로 만듦
+              mainAxisSpacing: 1.0,//게시물 사이에 스페이스
+              crossAxisSpacing: 1.0,
+            ),
+            itemCount: items.length,
+            itemBuilder: (context, index){
+              return _buildListItem(context, items[index]);
+            }
+          );
         }
-        var items = snapshot.data.documents ?? []; // ?? : item 이 null이면 [] 빈 리스트가 되도록 (null이 아니게 처리하는 거임)
-        return GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3, //한줄에 게시물 3개
-            childAspectRatio: 1.0, //게시물 비율 1:1 로 만듦
-            mainAxisSpacing: 1.0,//게시물 사이에 스페이스
-            crossAxisSpacing: 1.0,
-          ),
-          itemCount: items.length,
-          itemBuilder: (context, index){
-            return _buildListItem(context, items[index]);
-          },
-        );
-      }
+      ),
     );
  }
 
