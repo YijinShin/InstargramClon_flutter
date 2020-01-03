@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.instargram_clone"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:8:5-29:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:9:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.0.2] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/177ffb8b59c5560634908a9c6e1dba98/core-1.0.2/AndroidManifest.xml:22:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:11:9-43
+33        android:label="instargram_clone" >
+33-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:10:9-41
+34        <activity
+34-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:12:9-23:20
+35            android:name="com.example.instargram_clone.MainActivity"
+35-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:13:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:16:13-163
+37            android:hardwareAccelerated="true"
+37-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:17:13-47
+38            android:launchMode="singleTop"
+38-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:14:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:15:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:18:13-55
+41            <intent-filter>
+41-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:19:13-22:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:20:17-68
+42-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:20:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:21:17-76
+44-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:21:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:26:9-28:33
+52            android:name="flutterEmbedding"
+52-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:27:13-44
+53            android:value="2" />
+53-->/Users/yijinshin/Documents/GitHub/instargram_clone/android/app/src/main/AndroidManifest.xml:28:13-30
+54
+55        <service
+55-->[:firebase_auth] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[:firebase_auth] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+57            android:directBootAware="true"
+57-->[com.google.firebase:firebase-common:19.3.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c67d0b03a20f55d40c31bb604235afe6/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+58            android:exported="false" >
+58-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+59            <meta-data
+59-->[:firebase_auth] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+60                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+60-->[:firebase_auth] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[:firebase_auth] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+62            <meta-data
+62-->[:firebase_core] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+63-->[:firebase_core] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:firebase_core] /Users/yijinshin/Documents/GitHub/instargram_clone/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+66                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+66-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+68            <meta-data
+68-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/0953973aea3e4f41d8f11d4272f1c1e4/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+69                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+69-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/0953973aea3e4f41d8f11d4272f1c1e4/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/0953973aea3e4f41d8f11d4272f1c1e4/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+72                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+72-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+74        </service>
+75
+76        <provider
+76-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+77            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+77-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+78            android:authorities="com.example.instargram_clone.flutter.image_provider"
+78-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+79            android:exported="false"
+79-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+80            android:grantUriPermissions="true" >
+80-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+81            <meta-data
+81-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+83                android:resource="@xml/flutter_image_picker_file_paths" />
+83-->[:image_picker] /Users/yijinshin/Documents/GitHub/instargram_clone/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+84        </provider>
+85
+86        <activity
+86-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+87            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+87-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+91            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+91-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.firebase:firebase-auth:19.2.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c8b72275e916ed32c52cbb029194f794/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+93
+94        <receiver
+94-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+95            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+95-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+96            android:enabled="true"
+96-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+97            android:exported="false" >
+97-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+98        </receiver>
+99        <receiver
+99-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+100            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+100-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+102            android:exported="true"
+102-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+103            android:permission="android.permission.INSTALL_PACKAGES" >
+103-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+104            <intent-filter>
+104-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+105                <action android:name="com.android.vending.INSTALL_REFERRER" />
+105-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+105-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+106            </intent-filter>
+107        </receiver>
+108
+109        <service
+109-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+110            android:name="com.google.android.gms.measurement.AppMeasurementService"
+110-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+112            android:exported="false" />
+112-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+113        <service
+113-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+114            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+114-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/bdf4fa5bcb1f861c8224d2245615cc97/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+118
+119        <receiver
+119-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+120            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+120-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+121            android:exported="true"
+121-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+122            android:permission="com.google.android.c2dm.permission.SEND" >
+122-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+123            <intent-filter>
+123-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+124                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+124-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+124-->[com.google.firebase:firebase-iid:19.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/94dc8bc2ef609d643e3d83abebc0589d/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+125            </intent-filter>
+126        </receiver>
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:19.3.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c67d0b03a20f55d40c31bb604235afe6/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:19.3.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c67d0b03a20f55d40c31bb604235afe6/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+130            android:authorities="com.example.instargram_clone.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:19.3.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c67d0b03a20f55d40c31bb604235afe6/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.3.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c67d0b03a20f55d40c31bb604235afe6/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.3.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/c67d0b03a20f55d40c31bb604235afe6/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+133
+134        <activity
+134-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+135            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+135-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+136            android:excludeFromRecents="true"
+136-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+139        <!--
+140            Service handling Google Sign-In user revocation. For apps that do not integrate with
+141            Google Sign-In, this service will never be started.
+142        -->
+143        <service
+143-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+144            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+144-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+145            android:exported="true"
+145-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+146            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+146-->[com.google.android.gms:play-services-auth:16.0.1] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/90804ba7b64231c542c5633a525947e5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:17.1.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:17.1.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:17.1.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:17.1.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/57b0442f3da110455da4760211a188a0/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/e82bcdf90ee542a27ddd4d42f4c4baf2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/e82bcdf90ee542a27ddd4d42f4c4baf2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yijinshin/.gradle/caches/transforms-2/files-2.1/e82bcdf90ee542a27ddd4d42f4c4baf2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+156    </application>
+157
+158</manifest>
