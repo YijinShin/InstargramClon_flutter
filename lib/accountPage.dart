@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class accountPage extends StatefulWidget {
 
@@ -14,6 +16,25 @@ class accountPage extends StatefulWidget {
 }
 
 class _accountPageState extends State<accountPage> {
+
+  final GoogleSignIn _googleSignIn = GoogleSignIn();
+
+  int _postCount = 0;
+  
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Firestore.instance.collection('post').where('email', isEqualTo: widget.user.email)
+        .getDocuments()
+        .then((snapShot){
+            setState(() { //값이 오면 바로 갱신해야해서 setState 안에 넣는 거임
+              _postCount = snapShot.documents.length;
+            });
+        });
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,7 +109,7 @@ class _accountPageState extends State<accountPage> {
             ],
           ),
           //Padding(padding: EdgeInsets.all(10.0)),
-          Text('0\n게시물',
+          Text('$_postCount\n게시물',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 18.0),
           ),

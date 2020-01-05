@@ -3,6 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:instargram_clone/createPage.dart';
 
+import 'detail_post_page.dart';
+
 
 class searchPage extends StatefulWidget {
 
@@ -37,10 +39,10 @@ class _searchPageState extends State<searchPage> {
       body: StreamBuilder(
         stream: Firestore.instance.collection('post').snapshots(),
         builder: (BuildContext context, AsyncSnapshot snapshot){
-          if(! snapshot.hasData){
-            return Center(child: CircularProgressIndicator());
+          if(!snapshot.hasData){
+            return Center(child: CircularProgressIndicator());//로딩화
           }
-          var items = snapshot.data?.documents ?? []; // ?? : item 이 null이면 [] 빈 리스트가 되도록 (null이 아니게 처리하는 거임)
+          var items = snapshot.data?.documents ?? []; // ?? : documents 이 null이면 [] 빈 리스트가 되도록 (null이 아니게 처리하는 거임)
           return GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3, //한줄에 게시물 3개
@@ -59,9 +61,21 @@ class _searchPageState extends State<searchPage> {
  }
 
   Widget _buildListItem(context, document) { //함수 타입 생략 가능
-    return Image.network(
-      document['photoUrl'],
-      fit: BoxFit.cover, //사이즈에 맞게 이미지 넣기
+    return Hero(
+      tag: document['photoUrl'],
+      child: Material(
+        child: InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context){
+              return DetailPostPage(document);
+            }));
+          },
+          child: Image.network(
+            document['photoUrl'],
+            fit: BoxFit.cover, //사이즈에 맞게 이미지 넣기
+          ),
+        ),
+      ),
     );
   }
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jan 03 15:37:51 KST 2020
+#Fri Jan 03 17:42:15 KST 2020
 5.base=/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/intermediates/transforms/dexMerger/debug/5
 42.base=/Users/yijinshin/Documents/GitHub/InstargramClon_flutter/build/app/intermediates/transforms/dexMerger/debug/8
 22.path=classes.dex
